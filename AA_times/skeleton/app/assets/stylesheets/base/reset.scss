@@ -8,19 +8,18 @@ span, article, footer, time, small {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: none;
-  font: georgia;
-  color: red;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: center;
-  box-sizing: content-box;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
   background: transparent;
 }
 
 ol, ul {
-  // list-style:
-  list-style-type: none;
+  list-style: none;
 }
 
 img {
@@ -55,5 +54,5 @@ input[type="submit"] {
   // ...
   content: "";
   clear: both;
-  display: table;
+  display: block;
 }
