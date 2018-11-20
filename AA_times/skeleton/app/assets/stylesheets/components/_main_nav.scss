@@ -1,18 +1,28 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  // border-bottom: 1px soild solid $light-gray
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
 }
 
 .left-nav > ul > li {
-
+  font-size: 25px;
+  font-family: $sans-serif;
+  padding: 10px;
+	transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .right-nav > ul > li {
-
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .right-nav > ul > li:last-of-type {
@@ -30,5 +40,5 @@
 
 
 .right-nav i {
-
+  font-size: 40qpx
 }
